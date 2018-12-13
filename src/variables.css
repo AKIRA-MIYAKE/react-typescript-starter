@@ -1,0 +1,27 @@
+:root {
+  --color-primary: #1e88e5;
+  --color-tint-percent1: 10%;
+  --color-tint-percent2: 15%;
+  --color-shade-percent1: 10%;
+  --color-shade-percent2: 15%;
+
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-base: var(--font-family-sans-serif);
+
+  --font-weight-lighter: lighter;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-weight-bolder: bolder;
+  --font-weight-base: var(--font-weight-normal);
+
+  --font-size-base: 1rem;
+  --line-height-base: 1.5;
+
+  --body-color: #263238;
+  --body-bg: #fff;
+
+  --link-color: var(--color-primary);
+  --link-hover-color: color-mod(var(--color-primary) shade(var(--color-shade-percent1)));
+}
