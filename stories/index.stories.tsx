@@ -8,7 +8,7 @@ import { Button, Welcome } from '@storybook/react/demo';
 
 import 'ress/ress.css';
 import '../src/variables.css';
-import '../src/index.css';
+import '../src/base.css';
 
 import App from '../src/App';
 
