@@ -86,7 +86,7 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
               flexbox: 'no-2009',
             },
             stage: 0,
-            importFrom: path.resolve('src/variables.css'),
+            importFrom: path.resolve(paths.appSrc, './variables.css'),
           }),
         ],
         sourceMap: shouldUseSourceMap,
