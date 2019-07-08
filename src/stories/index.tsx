@@ -4,13 +4,13 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
-import { Button, Welcome } from '@storybook/react/demo';
-
 import 'ress/ress.css';
-import '../src/variables.css';
-import '../src/base.css';
+import '../variables.css';
+import '../base.css';
 
-import App from '../src/App';
+import App from '../App';
+
+const { Button, Welcome } = require('@storybook/react/demo');
 
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
@@ -24,4 +24,4 @@ storiesOf('Button', module)
     </Button>
   ));
 
-storiesOf('App', module).add('App', () => (<App></App>));
+storiesOf('App', module).add('App', () => <App />);
