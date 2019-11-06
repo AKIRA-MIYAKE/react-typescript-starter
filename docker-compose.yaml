@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   node:
-    image: node:12.6.0
+    image: node:12.13.0
     working_dir: /react-typescript-starter
     command: npm run dev
     volumes:
